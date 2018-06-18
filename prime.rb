@@ -11,7 +11,7 @@
 def prime?(number)
   #is_prime = true; # set a trigger variable
   if num <= 2
-   false
+   return false
  end
  prime_factor = [*2..num-1]
  isprime = prime_factor.none?{|n| num % n == 0}
